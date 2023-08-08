@@ -1,0 +1,111 @@
+/* Updated styling for the container */
+.container {
+    width: 600px;
+    max-height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Updated styling for the top item */
+  .topItem {
+    height: 65%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .topItem > h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #e1e1e1;
+  }
+  
+  .topItemMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .Info {
+    padding-left: 10px;
+  }
+  
+  .Info > p {
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .Info > h4 {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  #btn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px; /* Adjusted padding to reduce the button size */
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #36baff, #4f77ff);
+    border: none;
+    border-radius: 20px; /* Slightly reduced border-radius for a smaller button */
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.1s ease-in-out;
+  }
+  
+  #btn:hover {
+    background-image: linear-gradient(to right, #4f77ff, #36baff);
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  #btn:active {
+    background-image: linear-gradient(to right, #2e51d1, #4078ff);
+    transform: scale(0.95);
+  }
+  
+  
+  /* Updated styling for the bottom item */
+  .bottomItem {
+    height: 35%;
+    position: relative;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .ERROR {
+    padding-top: 5px;
+  }
+  
+  .ERROR > p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f9f9f9;
+    padding: 6px 0;
+    text-align: center;
+  }
+
+  .container {
+    background-color: #eaf2ff;
+  }
+  
+  .bottomItem {
+    background-color: #b8d1fc;
+  }
+  
